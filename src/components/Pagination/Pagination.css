@@ -1,0 +1,27 @@
+.btn-pagination{
+    margin: 1px 5px;
+}
+
+ol{ 
+    display: inline-flex;
+    list-style: none;
+    list-style-position: outside;
+    margin-bottom: 20px;
+}
+
+ol li{
+    margin-right: 10px;
+}
+
+ol li a{
+    list-style: none;;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 14pt;
+    color: var(--text-nav-color);
+}
+
+ol li a:hover{
+    background-color: #f4f4f4;
+}
+

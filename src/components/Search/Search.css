@@ -1,0 +1,19 @@
+.search-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.searchInput{
+    width: 420px;
+    height: 44px;
+	background: var(--background-search-input-color);
+	color: var(--text-color);
+	font: inherit;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+	padding: 22px 18px;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 100px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+}
+

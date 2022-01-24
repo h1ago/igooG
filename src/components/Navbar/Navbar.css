@@ -1,0 +1,35 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.nav li{
+    margin: auto 10px;
+    z-index: 10;    
+}
+
+.nav a{
+    color: var(--text-nav-color);
+    padding: 15px 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.active{
+    color: #ba181b !important;
+    border-bottom: 2px solid #ba181b;
+    
+}
+
+.fa:before {
+    margin-right: 5px;
+    font-size: 16px
+}
+
+.fa {
+    font-size: 16px
+}
