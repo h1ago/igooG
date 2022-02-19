@@ -5,6 +5,7 @@
 - React Redux Saga
 - JavaScript - ES6
 - CSS 3
+- Flexbox
 
 
 # Imagens
